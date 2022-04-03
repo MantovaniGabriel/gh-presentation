@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>My Website</title>
+</head>
+<body>
+    <header>
+        <h1>Gabriel Dev</h1>
+    </header>
+
+    <main>
+        <div class="initial-bg">
+            <div class="text-containers">
+                <h2>Apresentação</h2>
+                <p>
+                    Olá bem-vindo ao meu site, é um prazer ter você aqui.
+                    Construi esse site para mostrar um pouco das minhas,
+                    habilidades e conhecimento.
+                    Sou estudante de desenvolvimento de jogos na FATEC de
+                    Americana, amo programar, o que mais gosto é quando 
+                    vejo um problema, resolvê-los dá uma imensa satisfação.
+                </p>
+            </div>
+            
+            <div class="board git" onclick="openGit()">
+                <ion-icon name="logo-github"></ion-icon>
+                <hr>
+                <p>
+                    Github é uma ferramenta de versionamento,
+                    util para demais para gerenciar versões.
+                    Dê uma olha no meu perfil, pode te interessar,
+                    lá é onde subo projetos, que vou fazendo ao 
+                    longo da minha vida.
+                </p>
+            </div>
+
+            <div class="board linkedin" onclick="openLinke()">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <hr>
+                <p>
+                    Meu LinkedIn, possui mais algumas informações,
+                    caso esteja interessado, dê uma olhada pode,
+                    minhas informações de contato estão nele.
+                </p>
+            </div>
+        </div>
+
+        <div class="skills-container">
+            <h1>Skills</h1>
+            <hr>
+
+            <h2>Linguagens</h2>
+            <div class="languages">
+                <div class="skills-container sk">
+                    <h2>HTML</h2>
+                    <hr>
+                    <p>
+                        Não é uma linguagem de programção, é
+                        uma linguagem de hiper marcação de
+                        texto.
+                        Ela é usada para criação de sites.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>CSS</h2>
+                    <hr>
+                    <p>
+                        É o que dá estilo ao HTML.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>JavaScript</h2>
+                    <hr>
+                    <p>
+                        Linguagem muito usada no mercado.
+                        Muito frameworks interessantes.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_half</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>Python</h2>
+                    <hr>
+                    <p>
+                        É uma lingugem com uma curva
+                        de aprendizado baixa, porém
+                        é muito poderosa, pode ser usada
+                        para aplicações diversas.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_half</span>
+                        <span class="material-icons-outlined">star_outline</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>PHP</h2>
+                    <hr>
+                    <p>
+                        O elefante azul na sala.
+                        Uma linguagem muito poderosa,
+                        que dá ao programador uma gama
+                        de opções.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_outline</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>C#</h2>
+                    <hr>
+                    <p>
+                        É uma linguagem muito poderosa,
+                        usada para criar diversas aplicações.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_outline</span>
+                        <span class="material-icons-outlined">star_outline</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Frameworks, bibliotecas e outros</h2>
+            <div class="frameworks">
+                <div class="skills-container sk">
+                    <h2>Bootstrap</h2>
+                    <hr>
+                    <p>
+                        Framework que facilita a construção do front-end
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>JQuery</h2>
+                    <hr>
+                    <p>
+                        Biblioteca que simplifica os
+                        scripts.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_half</span>
+                        <span class="material-icons-outlined">star_outline</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>Node.JS</h2>
+                    <hr>
+                    <p>
+                        Software que ajuda os dev.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_half</span>
+                    </div>
+                </div>
+
+                <div class="skills-container sk">
+                    <h2>Banco de dados</h2>
+                    <hr>
+                    <p>
+                        As informações devem ser armazenadas.
+                        Geralmente elas ficam em banco de dados,
+                        seja SQL ou NoSQL.
+                    </p>
+                    <div class="stars">
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                        <span class="material-icons-outlined">star_purple500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="github info">
+            <a href="https://github.com/MantovaniGabriel"><ion-icon name="logo-github"></ion-icon>Github</a>
+            <p>Visite meu perfil no github para conferir alguns códigos.</p>
+        </div>
+
+        <div class="linkedin info">
+            <a href="https://www.linkedin.com/in/gabriel-henrique-a50ab1231"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</a>
+            <p>Visite meu perfil no LinkedIn, pode encontrar mais informações lá.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
